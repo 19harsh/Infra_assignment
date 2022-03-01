@@ -28,8 +28,8 @@ services:
     ports:
       - "51005:51005"
     depends_on:
-      mysql
-      mongo
+      - mysql
+      - mongo
         
  
 
