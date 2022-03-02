@@ -7,8 +7,9 @@ services:
     image: mysql:5.7
     restart: unless-stopped
     environment:
-       - MYSQL_DATABASE=backend_demo
-       - MYSQL_ROOT_PASSWORD=harsh
+       - MYSQL_DATABASE: 'backend_demo'
+       - MYSQL_USER: 'user'
+       - MYSQL_ROOT_PASSWORD: 'harsh'
     ports:
       - "3307:3306"
 
