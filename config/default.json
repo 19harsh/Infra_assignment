@@ -8,7 +8,7 @@
     "mysql": {
       "name": "backend_demo",
       "username": "root",
-      "password": "harsh",
+      "password": "password",
       "options": {
         "host": "mysql",
         "port": 3306,
